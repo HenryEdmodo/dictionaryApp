@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DictionaryApp</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+
+
+<%= yield %>
+</br></br>
+<form action="/Users/henry/Sites/MAMP/htdocs/RAILS/DictionaryApp/app/controllers/application_controller.rb" method="POST">
+Submit words: <input type="text">
+<input type="submit">Submit</input>
+</body>
+</html>
